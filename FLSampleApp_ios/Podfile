@@ -1,0 +1,48 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+def commonPods
+  pod 'SwiftLint'
+  pod 'SwiftFormat/CLI'
+  pod 'R.swift'
+  pod 'IBLinter'
+
+  pod 'PromisesSwift'
+  pod 'FlexLayout'
+  pod 'PinLayout'
+end
+
+target 'FLSampleApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  inhibit_all_warnings!
+
+  # Pods for FLSampleApp
+  commonPods
+
+  target 'FLSampleAppTests' do
+    inherit! :search_paths
+    # Pods for FLSampleApp
+  end
+
+  target 'FLSampleAppUITests' do
+    # Pods for FLSampleApp
+  end
+
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
+    end
+  end
+
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER'] = 'NO'
+      end
+    end
+  end
+end

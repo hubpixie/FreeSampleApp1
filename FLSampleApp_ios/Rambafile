@@ -1,0 +1,33 @@
+### Headers settings
+company: ""
+
+### Xcode project settings
+project_name: FLSampleApp
+xcodeproj_path: FLSampleApp.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: FLSampleApp
+
+# The file path for new modules
+project_file_path: FLSampleApp/Scene
+
+# The Xcode group path to new modules
+project_group_path: FLSampleApp/Scene
+
+### Tests generation settings section
+# The tests target name
+test_target: FLSampleAppTests
+
+# The file path for new tests
+test_file_path: FLSampleAppTests
+
+# The Xcode group path to new tests
+test_group_path: FLSampleAppTests
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+- {name: ca, local: 'CleanArchitectureCodes/'}

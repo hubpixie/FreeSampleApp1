@@ -1,0 +1,16 @@
+protocol {{ module_info.name }}Presenter {}
+
+/// {{ custom_parameters.screen_name }}画面の表示処理
+class {{ module_info.name }}PresenterImpl: {{ module_info.name }}Presenter {
+    fileprivate var view: {{ module_info.name }}View?
+    private(set) var router: {{ module_info.name }}Router
+    /* private(set) var usecase: {{ module_info.name }}Usecase */
+
+    init(view: {{ module_info.name }}ViewController,
+        router: {{ module_info.name }}Router /*,
+        usecase: {{ module_info.name }}Usecase */) {
+        self.view = view
+        self.router = router
+        /* self.usecase = usecase */ // TODO: Usecase使用する想定
+    }
+}

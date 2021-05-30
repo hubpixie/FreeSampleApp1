@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  FLSampleApp
+
+  Created by 海鮮ドン on 2021/05/29.
+  
+*/
+"tab_name_home"="ホーム";
+"tab_name_coupon"="クーポン";
+"tab_name_weather"="みごろ";
+"tab_name_misc"="その他";

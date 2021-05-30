@@ -1,0 +1,29 @@
+enabled_rules:
+  - relative_to_margin
+  - use_base_class
+  - view_as_device
+excluded:
+  - Pods/
+  - FLSampleApp/Generates/
+  - FLSampleAppTests/
+  - FLSampleAppUITests/
+included:
+  - FLSampleApp/Scene
+use_base_class_rule:
+  - element_class: UILabel
+    base_classes:
+      - Label
+  - element_class: UIButton
+    base_classes:
+      - Button
+      - PrimaryButton
+      - SecondaryButton
+      - FlatButton
+      - CircleButton
+      - BackButton
+  - element_class: UIImageView
+    base_classes:
+      - ImageView
+      - AnimatedImageView
+view_as_device_rule:
+  device_id: retina6_1

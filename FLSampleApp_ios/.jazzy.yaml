@@ -1,0 +1,34 @@
+# .jazzy.yaml
+
+# ドキュメント化するスコープ
+min_acl: internal
+
+# 出力先フォルダをクリーンするか
+clean: true
+
+# 出力先フォルダ
+output: docs_jazzy
+
+# 作成者
+author: FLSampleApp
+
+# 作成者URL
+author_url: https://FLSampleApp.org/
+
+# ドキュメント対象のモジュール
+module: FLSampleApp
+
+# ドキュメントのないファイルをスキップするか
+skip_undocumented: true
+
+# ドキュメントのバージョン
+module_version: 0.1
+
+# コピーライト
+copyright: © 2021 - FLSampleApp Group
+
+# ドキュメントのテーマ
+theme: apple
+
+# xcodebuildの引数
+xcodebuild_arguments: [-workspace,FLSampleApp.xcworkspace,-scheme,FLSampleApp]

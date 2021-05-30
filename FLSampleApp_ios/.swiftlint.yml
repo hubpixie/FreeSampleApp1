@@ -1,0 +1,57 @@
+#　ライブラリとリソースは対象外とする
+excluded:
+  - Pods/
+  - FLSampleApp/Generates/
+  - FLSampleAppTests/
+  - FLSampleAppUITests/
+
+# 無効にするルール
+disabled_rules:
+  - opening_brace #SwiftFormatにて行うとしてここで無視する
+  - todo #TODOはWaringにせず、別ルールを介して検索できるようにする
+
+# ディフォルト無効のルールから友好するルール
+opt_in_rules:
+  - closure_end_indentation
+  - closure_spacing
+  - empty_count
+  - explicit_init
+  - first_where
+  - missing_docs
+  - nimble_operator
+  - number_separator
+  - operator_usage_whitespace
+  - prohibited_super_call
+  - redundant_nil_coalescing
+  - switch_case_on_newline
+  #- valid_docs
+  - force_unwrapping
+
+# カスタムルール
+custom_rules:
+  use_custom_log:
+    included: ".*\\.swift"
+    excluded: "Log.swift"
+    name: "ログはLogクラス使用"
+    regex: "(print\\(|NSLog\\()"
+    message: "ログを出力する際、Logクラスを使ってください"
+  prefer_use_name_impl:
+    included: ".*\\.swift"
+    name: "Implementationでは短いImplのほうがよい"
+    regex: "(Implementation)"
+    message: "Implementationの代わりに、短いImplを使っても良い"
+  use_custom_component:
+    included: ".*\\.swift"
+    name: "Viewよりカスタムコンポーネントのほうがいい"
+    regex: "((UILabel|UIButton|UIImageView)\\()"
+    message: "ビューの場合はカスタムコンポーネントを使ってください"
+  use_localizable_string_and_rswift:
+    included: ".*\\.swift"
+    name: "日本語のメッセージの定義はローカライズファイルにて行う"
+    regex: "(?<!((Log\\.(debug|info|crash|warn|error))|(print))\\()(\"[^ -/:-@\\[-~\"][^\\n\"]*[ぁ-んァ-ヶ亜-熙][^\\n\"]*\")"
+    message: "日本語が含まれるメッセージの定義はLocalizable.stringsに書いて、R.swift経由でアクセスしてください"
+  use_custom_id_type:
+    included: ".*\\.swift"
+    name: "IDはClass/Structで定義する"
+    regex: "((userId|contactId|notificationId): String)"
+    message: "IDを表現する場合は適切なクラス/構造体を介して使ってください"

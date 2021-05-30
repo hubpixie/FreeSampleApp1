@@ -1,0 +1,12 @@
+import UIKit
+
+protocol {{ module_info.name }}Router {}
+
+/// {{ custom_parameters.screen_name }}画面の画面遷移処理
+class {{ module_info.name }}RouterImpl: {{ module_info.name }}Router {
+    fileprivate weak var viewController: {{ module_info.name }}ViewController?
+
+    init(view: {{ module_info.name }}ViewController) {
+        viewController = view
+    }
+}

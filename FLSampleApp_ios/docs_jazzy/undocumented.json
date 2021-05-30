@@ -1,0 +1,432 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/AppDelegate.swift",
+      "line": 4,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Generates/ColorGen.swift",
+      "line": 4,
+      "symbol": "UIColor.baseBackColor()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Generates/R.generated.swift",
+      "line": 196,
+      "symbol": "R.info.uiApplicationSceneManifest",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Generates/R.generated.swift",
+      "line": 324,
+      "symbol": "_R",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/BaseViewController.swift",
+      "line": 11,
+      "symbol": "BaseViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Coupon/CouponConfigurator.swift",
+      "line": 1,
+      "symbol": "CouponConfigurator",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Coupon/CouponConfigurator.swift",
+      "line": 7,
+      "symbol": "CouponConfiguratorImpl.configure(dependency:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Coupon/CouponPresenter.swift",
+      "line": 1,
+      "symbol": "CouponPresenter",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Coupon/CouponPresenter.swift",
+      "line": 6,
+      "symbol": "CouponPresenterImpl.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Coupon/CouponPresenter.swift",
+      "line": 9,
+      "symbol": "CouponPresenterImpl.init(view:router:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Coupon/CouponRouter.swift",
+      "line": 3,
+      "symbol": "CouponRouter",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Coupon/CouponRouter.swift",
+      "line": 9,
+      "symbol": "CouponRouterImpl.init(view:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Coupon/CouponViewController.swift",
+      "line": 3,
+      "symbol": "CouponView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Coupon/CouponViewController.swift",
+      "line": 13,
+      "symbol": "CouponViewController.presenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Coupon/CouponViewController.swift",
+      "line": 17,
+      "symbol": "CouponViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Home/HomeConfigurator.swift",
+      "line": 1,
+      "symbol": "HomeConfigurator",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Home/HomeConfigurator.swift",
+      "line": 7,
+      "symbol": "HomeConfiguratorImpl.configure(dependency:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Home/HomePresenter.swift",
+      "line": 1,
+      "symbol": "HomePresenter",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Home/HomePresenter.swift",
+      "line": 6,
+      "symbol": "HomePresenterImpl.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Home/HomePresenter.swift",
+      "line": 9,
+      "symbol": "HomePresenterImpl.init(view:router:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Home/HomeRouter.swift",
+      "line": 3,
+      "symbol": "HomeRouter",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Home/HomeRouter.swift",
+      "line": 9,
+      "symbol": "HomeRouterImpl.init(view:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Home/HomeViewController.swift",
+      "line": 3,
+      "symbol": "HomeView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Home/HomeViewController.swift",
+      "line": 13,
+      "symbol": "HomeViewController.presenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Home/HomeViewController.swift",
+      "line": 17,
+      "symbol": "HomeViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Misc/MiscConfigurator.swift",
+      "line": 1,
+      "symbol": "MiscConfigurator",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Misc/MiscConfigurator.swift",
+      "line": 7,
+      "symbol": "MiscConfiguratorImpl.configure(dependency:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Misc/MiscPresenter.swift",
+      "line": 1,
+      "symbol": "MiscPresenter",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Misc/MiscPresenter.swift",
+      "line": 6,
+      "symbol": "MiscPresenterImpl.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Misc/MiscPresenter.swift",
+      "line": 9,
+      "symbol": "MiscPresenterImpl.init(view:router:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Misc/MiscRouter.swift",
+      "line": 3,
+      "symbol": "MiscRouter",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Misc/MiscRouter.swift",
+      "line": 9,
+      "symbol": "MiscRouterImpl.init(view:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Misc/MiscViewController.swift",
+      "line": 3,
+      "symbol": "MiscView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Misc/MiscViewController.swift",
+      "line": 13,
+      "symbol": "MiscViewController.presenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Misc/MiscViewController.swift",
+      "line": 17,
+      "symbol": "MiscViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Splash/SplashConfigurator.swift",
+      "line": 1,
+      "symbol": "SplashConfigurator",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Splash/SplashConfigurator.swift",
+      "line": 7,
+      "symbol": "SplashConfiguratorImpl.configure(dependency:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Splash/SplashPresenter.swift",
+      "line": 1,
+      "symbol": "SplashPresenter",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Splash/SplashPresenter.swift",
+      "line": 8,
+      "symbol": "SplashPresenterImpl.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Splash/SplashPresenter.swift",
+      "line": 11,
+      "symbol": "SplashPresenterImpl.init(view:router:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Splash/SplashPresenter.swift",
+      "line": 20,
+      "symbol": "SplashPresenterImpl.startTop()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Splash/SplashRouter.swift",
+      "line": 3,
+      "symbol": "SplashRouter",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Splash/SplashRouter.swift",
+      "line": 11,
+      "symbol": "SplashRouterImpl.init(view:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Splash/SplashRouter.swift",
+      "line": 15,
+      "symbol": "SplashRouterImpl.gotoTop()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Splash/SplashViewController.swift",
+      "line": 3,
+      "symbol": "SplashView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Splash/SplashViewController.swift",
+      "line": 13,
+      "symbol": "SplashViewController.presenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Splash/SplashViewController.swift",
+      "line": 17,
+      "symbol": "SplashViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Splash/SplashViewController.swift",
+      "line": 24,
+      "symbol": "SplashViewController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/TabBarViewController.swift",
+      "line": 11,
+      "symbol": "TabBarViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Utility/ViewUtil.swift",
+      "line": 3,
+      "symbol": "ViewUtil",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Weather/WeatherConfigurator.swift",
+      "line": 1,
+      "symbol": "WeatherConfigurator",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Weather/WeatherConfigurator.swift",
+      "line": 7,
+      "symbol": "WeatherConfiguratorImpl.configure(dependency:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Weather/WeatherPresenter.swift",
+      "line": 1,
+      "symbol": "WeatherPresenter",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Weather/WeatherPresenter.swift",
+      "line": 6,
+      "symbol": "WeatherPresenterImpl.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Weather/WeatherPresenter.swift",
+      "line": 9,
+      "symbol": "WeatherPresenterImpl.init(view:router:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Weather/WeatherRouter.swift",
+      "line": 3,
+      "symbol": "WeatherRouter",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Weather/WeatherRouter.swift",
+      "line": 9,
+      "symbol": "WeatherRouterImpl.init(view:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Weather/WeatherViewController.swift",
+      "line": 3,
+      "symbol": "WeatherView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Weather/WeatherViewController.swift",
+      "line": 13,
+      "symbol": "WeatherViewController.presenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/Scene/Weather/WeatherViewController.swift",
+      "line": 17,
+      "symbol": "WeatherViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios/FLSampleApp/SceneDelegate.swift",
+      "line": 3,
+      "symbol": "SceneDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/janne/Lab/Trying-aero/multi_apps/FreeSampleApp1/FLSampleApp_ios"
+}

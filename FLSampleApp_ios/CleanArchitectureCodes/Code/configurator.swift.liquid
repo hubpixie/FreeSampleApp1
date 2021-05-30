@@ -1,0 +1,12 @@
+protocol {{ module_info.name }}Configurator {
+    func configure(dependency: {{ module_info.name }}ViewController)
+}
+
+/// {{ custom_parameters.screen_name }}画面の初期化
+class {{ module_info.name }}ConfiguratorImpl: {{ module_info.name }}Configurator {
+    func configure(dependency: {{ module_info.name }}ViewController) {
+        let router = {{ module_info.name }}RouterImpl(view: dependency)
+        let presenter = {{ module_info.name }}PresenterImpl(view: dependency, router: router)
+        dependency.presenter = presenter
+    }
+}
